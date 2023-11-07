@@ -1,0 +1,27 @@
+h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+*[class^="col"]  {
+    flex-grow: 1;
+    min-height: 30px;
+    background-color: rgb(148, 148, 245);
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    max-width: 100%;
+}
+
+.nested {
+    background-color: rgb(12, 180, 12);
+    border: 1px solid rgb(103, 103, 221);
+
+}
+
+.nested-row {
+    padding: 10px;
+}
